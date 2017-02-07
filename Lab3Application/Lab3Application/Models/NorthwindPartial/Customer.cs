@@ -18,10 +18,11 @@ namespace Lab3Application.Models.Northwind
         public string CompanyName { get; set; }
 
         [Required]
-        [Display(Name = "Comtact")]
+        [Display(Name = "Contact")]
         public string ContactName { get; set; }
 
         [Required]
+        [Display(Name = "Title")]
         public string ContactTitle { get; set; }
 
         public string Address { get; set; }
@@ -29,7 +30,6 @@ namespace Lab3Application.Models.Northwind
         [Required]
         public string City { get; set; }
 
-        [Required]
         public string Region { get; set; }
 
         public string PostalCode { get; set; }
